@@ -1,0 +1,143 @@
+body {
+    margin: 0 auto;
+    width: 450px;
+    font-size: 14px;
+} 
+
+h3 {
+    margin-bottom: 15px;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.avatar {
+	width: 125px;
+	height: 125px;
+	border-radius: 5px;
+}
+
+.avatar.size42 {
+	width: 42px;
+	height: 42px;
+	border-radius: 4px;	
+}
+
+.stream-area {
+    position: relative;
+    margin-top: 5%;
+}
+
+.stream-item {
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    background: #ffffff;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.stream-item:first-child {
+	border-top: 1px solid #f2f2f2;
+}
+
+.stream-item:hover {
+	background: #f5f5f5;	
+}
+
+.stream-item:hover .joined_bg {
+	border-bottom-color: #f5f5f5;
+}
+
+
+.stream-item .stream-info {
+	position: relative !important;
+	padding: 15px;
+	min-height: 42px;
+}
+
+.stream-item .joined_bg {
+	border-bottom: 32px solid #ffffff;
+	border-right: 32px solid transparent;
+	right: 0;
+	position: absolute;
+}
+
+.stream-item .joined_icon {
+	position: absolute;
+	right: 0;
+	font-size: 27px;
+	color: #fff;
+	padding-right: 2px;
+	padding-top: 2px;
+	width: 30px;
+	height: 30px;
+	text-align: right;
+}
+		
+.stream-item .joined_icon.green {
+	background: #5cb85c;
+}
+
+.stream-item .joined_icon.yellow {
+	background: #f0ad4e;
+}
+
+.stream-item .joined_icon.purple {
+	background: #563d7c;
+}		
+
+.stream-content {
+    margin: 15px;
+    display: block;
+}
+
+.stream-item .content {
+    margin-left: 52px;
+    position: relative;
+}
+
+.stream-item-header {
+	z-index: 1;
+}
+
+.stream-item-header .stream-item-profile-link {
+	color: #333333;
+}
+
+.stream-item-header .stream-item-profile-link:hover {
+	color: #005580;
+}
+
+.stream-item-header .avatar {
+	float: left;
+	margin-left: -52px;
+}
+
+.stream-item-header strong {
+	font-size: 14px;
+}
+
+.stream-item-header small {
+	font-size: 70%;
+	display: block;
+}
+
+.stream-item-header small.time {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.stream-item-profile-link .username {
+	font-size: 12px;
+	color: #999;
+}
+
+.stream-item-profile-link:hover strong {
+	text-decoration: underline;
+}
+
+.stream-item-profile-link:hover {
+	text-decoration: none;
+}
