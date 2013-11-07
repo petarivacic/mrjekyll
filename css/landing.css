@@ -192,29 +192,3 @@ a.button.small:hover {
   #footer p {
     text-align:left;
   }
-}
-@media all and (max-width:500px) {
-  h1 {
-    font-size:45px;
-  }
-  #header h2 {
-    font-size:15px;
-  }
-  .section {
-    padding:10px;
-  }
-  .half {
-    margin-bottom:10px;
-  }
-  .half.left .padding, .half.right .padding, .padding {
-    padding:5px;
-  }
-}
-@media all and (max-width:280px) {
-  h1 {
-    font-size:38px;
-  }
-  h2 {
-    font-size:25px;
-  }
-}
